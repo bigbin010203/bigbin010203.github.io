@@ -1,10 +1,7 @@
-site_name: My Docs
+site_name: 范淮杉
+
 theme:
   name: material
-  palette: 
-    - scheme: default # 日间模式
-      primary: indigo # 上方的
-      accent: orange # 链接等可交互元件的高亮色
   features:
     - navigation.tabs # 使用Tab来进行分类
     - navigation.top # 返回顶部的按钮 在上滑时出现
@@ -16,21 +13,18 @@ theme:
   icon:
     repo: fontawesome/brands/github
 edit_uri: edit/main/docs # 编辑按钮跳转的链接
-## [bottom-left corner]
-#copyright: Copyright &copy; 2022 杨希杰 # 左下角的版权声明
+
 ## [bottom-right corner]
-#extra:
-#  social: # icons
-#    - icon: fontawesome/brands/bilibili
-#      link: https://space.bilibili.com/290096940
-#      name: Bilibili | 范淮杉 # 鼠标悬浮提示
-
-
+extra:
+  social: # icons
+    - icon: fontawesome/brands/bilibili
+      link: https://space.bilibili.com/290096940
+      name: Bilibili | 范淮杉 # 鼠标悬浮提示
 # [Navigtion]
-nav:
-  - 回忆: 
-  
 
+nav:
+  - 回忆:
+    - past/index.md   
 # [Extensions]
 plugins:
   - search: # 现在还不支持中文搜索 支持之后可以设置语言
